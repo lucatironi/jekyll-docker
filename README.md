@@ -14,7 +14,7 @@ $ docker run -v "$PWD:/src" jekyll-docker new . -f
 
 Change the `url` value in the `_config.yml` from `"example.com"` to an empty string (`""`).
 
-Serve the site on [http://localhost:4000]:
+Serve the site on [localhost:4000](http://localhost:4000):
 
 ```
 $ docker run -v "$PWD:/src" -p 4000:4000 --rm jekyll-docker
