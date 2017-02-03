@@ -10,6 +10,7 @@ RUN apt-get update \
 RUN gem install \
   jekyll \
   minima \
+  jekyll-feed \
   --no-ri --no-rdoc
 
 WORKDIR /src
